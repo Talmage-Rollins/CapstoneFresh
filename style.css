@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff; /* Sky blue */
     color: #333; /* Dark gray */
+    line-height: 1.6; /* Increases the space between lines, 1.6 is a multiplier of the default line height */
 }
 
 header {
@@ -11,6 +12,10 @@ header {
     padding: 10px;
     text-align: center;
 }
+
+img {
+    padding: 20px; /* Adds 20 pixels of padding around the image */
+  }
 
 ul {
     list-style-type: square;
