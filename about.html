@@ -1,55 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
     <title>Recursos</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        section {
-            margin: 20px auto;
-            padding: 20px;
-            max-width: 800px;
-        }
-        #search-bar {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-bottom: 20px;
-        }
-        .resources-links {
-            list-style-type: none;
-            padding: 0;
-        }
-        .resources-links li {
-            margin-bottom: 10px;
-        }
-        .resources-links li a {
-            display: block;
-            padding: 10px;
-            background-color: #f4f4f4;
-            text-decoration: none;
-            color: #333;
-            border-radius: 4px;
-        }
-        .resources-links li a:hover {
-            background-color: #ddd;
-        }
-    </style>
+
 </head>
 <body>
     <header>
@@ -67,8 +25,60 @@
     
     <section>
         <h2>Buscar Recursos</h2>
-        <input type="text" id="search-bar" placeholder="Buscar recursos...">
-        
+        <div class="search-wrapper">
+            <label for="search">Search Users</label>
+            <input type="search" id="search" data-search>
+          </div>
+    </section>
+
+    <section>
+          
+        <div class="card">
+            <div class="header" data-header>Weber</div>
+            <div class="body" data-body></div>
+        </div>
+
+        <div class="card">
+            <div class="header" data-header>State</div>
+            <div class="body" data-body></div>
+        </div>
+
+        <div class="card">
+            <div class="header" data-header>University</div>
+            <div class="body" data-body></div>
+        </div>
+
+        <div class="card">
+            <div class="header" data-header>Career</div>
+            <div class="body" data-body></div>
+        </div>
+
+        <div class="card">
+            <div class="header" data-header>Services</div>
+            <div class="body" data-body></div>
+        </div>
+
+        <div class="card">
+            <div class="header" data-header>Homepage</div>
+            <div class="body" data-body></div>
+        </div>
+
+        <div class="card">
+            <div class="header" data-header>Scanner</div>
+            <div class="body" data-body></div>
+        </div>
+
+        <div class="card">
+            <div class="header" data-header>Fish</div>
+            <div class="body" data-body></div>
+        </div>
+
+        <div class="card">
+            <div class="header" data-header>Duck</div>
+            <div class="body" data-body></div>
+        </div>
+          
+        <!---
         <h2>Enlaces de Recursos</h2>
         <ul class="resources-links">
             <li><a href="#">Guía para Escribir un Currículum</a></li>
@@ -76,8 +86,9 @@
             <li><a href="#">Cómo Mejorar tu Perfil de LinkedIn</a></li>
             <li><a href="#">Preguntas Frecuentes sobre Búsqueda de Empleo</a></li>
         </ul>
+        --->
     </section>
-    
+
     <footer>
         <p>&copy; 2024 Búsqueda de Empleo. Todos los derechos reservados.</p>
     </footer>
